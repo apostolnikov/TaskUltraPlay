@@ -1,0 +1,52 @@
+h1 {
+	color: #DDDDDD;
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	color: #E50000;
+	padding-top: 5%;
+}
+
+span {
+	color: #FFE418;
+}
+
+.home-component-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-content: center;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	color: #DDDDDD;
+    background-color: #999999;
+    border: 1px solid #A6A7A7;
+
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.home-component-container:hover {
+	background-color: #666666;
+}
+
+.inner-home-component-startTime-div {
+	width: 30%;
+	padding-left: 12%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.inner-home-component-teamNames-div {
+	width: 70%;
+	padding-left: 25%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}

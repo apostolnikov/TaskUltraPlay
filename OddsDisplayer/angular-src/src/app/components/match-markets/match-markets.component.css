@@ -1,0 +1,48 @@
+h1, p {
+	color: #DDDDDD;
+	text-align: center;
+}
+
+span {
+	color: #FFE418;
+}
+
+
+.match-markets-component-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	color: #DDDDDD;
+    background-color: #999999;
+    border: 1px solid #A6A7A7;
+
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.market-name-div {
+	width: 100%;
+	text-align: center;
+
+}
+
+.odds-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: center;
+}
+
+.value-of-odd {
+	width: 100%;
+	text-align: center;
+}

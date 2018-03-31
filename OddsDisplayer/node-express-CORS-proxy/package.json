@@ -1,0 +1,15 @@
+{
+  "name": "odds-displayer",
+  "version": "1.0.0",
+  "description": "Simple odds data consuming app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  	"express":"*",
+  	"request":"*"
+  },
+  "author": "Apostol Nikov",
+  "license": "MIT"
+}

@@ -1,0 +1,9 @@
+<p>The clicked match id is: <span>{{selectedMatch.Id}}</span></p>
+<h1>{{selectedMatch.HomeTeamName}} <span>vs</span> {{selectedMatch.AwayTeamName}}</h1>
+
+<div *ngFor="let m of markets" class="match-markets-component-container">
+	<div class="market-name-div">{{m.Name}}</div>
+	<div class="odds-container" *ngFor="let odd of m.Odds">
+		<div class="value-of-odd">{{odd.Value | number : '1.2'}}</div>
+	</div>
+</div>

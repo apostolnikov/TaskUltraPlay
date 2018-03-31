@@ -1,0 +1,8 @@
+<h1>Current Available <span>Matches</span></h1>
+<div *ngIf="matches == 0">
+	<h2>There are no current available matches!</h2>
+</div>
+<div *ngFor="let m of matches" (click)="showAllMarkets(m)" class="home-component-container">
+	<div class="inner-home-component-startTime-div">{{m.StartTime | date: 'd MMM hh:mm'}}</div>
+	<div class="inner-home-component-teamNames-div">{{m.HomeTeamName}} vs {{m.AwayTeamName}}</div>
+</div>
